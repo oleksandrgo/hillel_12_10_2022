@@ -1,0 +1,46 @@
+/*div {
+	color: blue
+}
+*/
+
+/*.main_color{
+	background-color: green;
+}
+*/
+
+/*ul li:nth-child(3){
+	color: red;
+}*/
+/*
+div{
+	background-color: black;
+}*/
+
+/*.main_color{
+	background-color: green;
+}
+
+#first{
+	background-color: blue;
+}*/
+
+div{
+	border:1px solid black;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	padding: 15px;
+	margin: 5%;
+	color: blue;
+	font-family: Georgia, serif;
+	font-size: 10px;
+	text-decoration: blink;
+}
+
+/*body{
+	background-image: url("http://bipbap.ru/wp-content/uploads/2017/04/24.jpg");
+	background-size: cover;
+}
+*/
+
+
