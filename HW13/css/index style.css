@@ -1,0 +1,41 @@
+h1, h2, h3, h4 {
+    font-family: "old london";
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+#h2-one {
+    font-family: "old london";
+    color: red;
+}
+
+
+#table {
+	border: 2px solid black;
+font-weight: bold
+float: left;
+    width: 50%;
+}
+
+
+#div_one {
+border: 2px solid black;
+font-weight: bold;
+background-image: url("picture/main page footer.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+#header {
+border: 2px solid black;
+font-weight: bold;
+background-image: url("picture/main page footer.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+body {background-image: url("picture/paper.jpg");
+}

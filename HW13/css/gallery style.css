@@ -1,0 +1,17 @@
+#body_second {background-image: url("picture/paper.jpg");
+}
+
+#footer {border: 2px solid black;
+font-weight: bold;
+background-image: url("picture/main page footer.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#header {
+border: 2px solid black;
+font-weight: bold;
+background-image: url("picture/main page footer.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}

@@ -1,0 +1,28 @@
+
+#header {
+border: 2px solid black;
+font-weight: bold;
+background-image: url("picture/main page footer.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#h2 {font-family: "old london";
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;}
+
+
+
+#footer {
+border: 2px solid black;
+font-weight: bold;
+background-image: url("picture/main page footer.jpg");
+background-size: cover;
+background-repeat: no-repeat;}
+
+
+#section-1{font-weight: bold;}
+
+#body_one {background-image: url("picture/paper.jpg");
+}
