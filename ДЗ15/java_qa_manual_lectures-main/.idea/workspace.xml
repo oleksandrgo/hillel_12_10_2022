@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e880018-10b6-4c1c-b092-17ead8c2ab17" name="Changes" comment="Home Work 15" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LJa9sevskmZ2b5M2cAvhYKAcK0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/hillel/hillel_12_10_2022/ДЗ15/java_qa_manual_lectures-main&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.com.hillel.qa.java.arithmetic_operators.homework.HomeWork3">
+    <configuration name="HomeWork1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hillel.qa.java.arithmetic_operators.homework.HomeWork1" />
+      <module name="java_qa_manual_lectures-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hillel.qa.java.arithmetic_operators.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hillel.qa.java.variables.homework.HomeWork2" />
+      <module name="java_qa_manual_lectures-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hillel.qa.java.variables.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hillel.qa.java.variables.homework.HomeWork3" />
+      <module name="java_qa_manual_lectures-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hillel.qa.java.variables.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hillel.qa.java.arithmetic_operators.homework.HomeWork2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hillel.qa.java.arithmetic_operators.homework.HomeWork2" />
+      <module name="java_qa_manual_lectures-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hillel.qa.java.arithmetic_operators.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hillel.qa.java.arithmetic_operators.homework.HomeWork3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hillel.qa.java.arithmetic_operators.homework.HomeWork3" />
+      <module name="java_qa_manual_lectures-main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hillel.qa.java.arithmetic_operators.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.hillel.qa.java.arithmetic_operators.homework.HomeWork3" />
+        <item itemvalue="Application.com.hillel.qa.java.arithmetic_operators.homework.HomeWork2" />
+        <item itemvalue="Application.HomeWork1" />
+        <item itemvalue="Application.HomeWork3" />
+        <item itemvalue="Application.HomeWork2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e880018-10b6-4c1c-b092-17ead8c2ab17" name="Changes" comment="" />
+      <created>1675591490265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675591490265</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dmitriy.revenko" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Home Work 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Work 15" />
+  </component>
+</project>
