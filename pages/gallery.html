@@ -2,17 +2,77 @@
 <html>
 <head>
 	<title>Gallery</title>
+	 <style type="text/css">
+body {
+	margin: 20px auto;
+	padding: 0;
+	width: 750px;
+	font: 70%/140% Arial, Helvetica, sans-serif;
+}
+h1 {
+	font: normal 420%/110% Garamond, Georgia, serif;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+}
+img {
+	border: none;
+}
+
+/* ---------- gallery styles start here ----------------------- */
+.gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.gallery li {
+	margin: 15px;
+	padding: 0;
+	float: left;
+	position: relative;
+	width: 212px;
+	height: 175px;
+}
+
+.gallery a {
+	text-decoration: none;
+	color: #666;
+}
+.gallery a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.gallery img {
+	padding: 20px 0 0 21px;width: 170px;
+	height: 120px;
+}
+.gallery em {
+	width: 212px;
+	height: 30px;
+	background: url(../photo/picture-frame.png) no-repeat;
+	display: block;
+	position: absolute;
+	text-align: center;
+	font: 100%/100% Georgia, "Times New Roman", Times, serif;
+	padding-top: 145px;
+}
+</style>
+    <meta charset="utf-8">
 </head>
 <body>
-	<p>Photo 1</p>
-<img src="../photo/Resume.jpg" width="300" height="300" alt="Resume">
-<p>Photo 2</p>
-<img src="../photo/Одеса.jpg" width="300" height="300" alt="Одеса">
-<p>Photo 3</p>
-<img src="../photo/Карпати.jpg" width="300" height="300" alt="Карпати">
-<p>Photo 4</p>
-<img src="../photo/Дніпро.jpg" width="300" height="300" alt="Дніпро">
-<p>Photo 5</p>
-<img src="../photo/фото для резюме.jpg" width="300" height="300" alt="День народження">
+<h1> Gallery Radchenko - Life</h1>
+
+<ul class="gallery">
+	<li><a href="#"><em>Kremenchug</em><img src="../photo/R1.jpg" alt="image" /></a></li>
+	<li><a href="#"><em>Birthday</em><img src="../photo/Resume.jpg" alt="image" /></a></li>
+	<li><a href="#"><em>Dnipro</em><img src="../photo/Дніпро.jpg" alt="image" /></a></li>
+	<li><a href="#"><em>Karpaty</em><img src="../photo/Карпати.jpg" alt="image" /></a></li>
+	<li><a href="#"><em>Odesa Mama</em><img src="../photo/Одеса.jpg" alt="image" /></a></li>
+	<li><a href="#"><em>Pohid</em><img src="../photo/2.jpg" alt="image" /></a></li>
+	<li><a href="#"><em>Mount Shpitsi</em><img src="../photo/8.jpg" alt="image" /></a></li>
+	<li><a href="#"><em>Mount Petros</em><img src="../photo/Mount Petros.jpg" alt="image" /></a></li>
+	<li><a href="#"><em>Na koni</em><img src="../photo/Na koni.jpg" alt="image" /></a></li>
+</ul>
 </body>
 </html>
