@@ -1,0 +1,38 @@
+.text-center {
+	text-align: center;
+}
+
+.background {
+	background: url('photos/bg.webp') top center / cover;
+}
+
+a{
+	color: rgba(120, 95, 50, 1); 
+	font-size: 20px;
+	font-style: italic;
+}
+.title {
+	font-family: Trocchi;
+	color: #414746;
+	font-size: 55px;
+	font-weight: bold;
+}
+h2 {
+	font-family: Trocchi;
+	color: #515756;
+	font-size: 30px;
+}
+.fonts {
+	color: #555;
+	font-size: 22px;
+}
+footer {
+	color: #444;
+	font-size: 18px;
+}
+.background-contact {
+	background: url('photos/little-kitten.jpeg') top center / cover;
+}
+.background-gallery {
+	background: url('photos/koshki.jpeg') repeat;
+}
