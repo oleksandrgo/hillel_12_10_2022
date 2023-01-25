@@ -1,0 +1,33 @@
+body{
+	background-image: url("https://oir.mobi/uploads/posts/2021-03/thumbs/1616597614_5-p-zhemchuzhnii-fon-6.jpg");
+	background-size: contain;
+}
+h1, h2, h3{
+	color: blue;
+	position: relative;
+	text-align: center;
+}
+ul{
+	color: DimGray;
+}
+.tittle{
+	color: DarkSlateGray ;
+	position: relative; 
+	width: 97%;
+	left: 3%;
+	position: relative;
+}
+.img1{
+	position: relative;
+	width: 450px;
+	height: 300px;
+	left: 35%;
+}
+
+#file{
+	color: currentColor;
+	position: relative;
+	text-align: center;
+}
+
+
