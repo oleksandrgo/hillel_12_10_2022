@@ -1,0 +1,93 @@
+h1 {
+color: #4d001d;;
+font-size:250%;
+text-align: center;
+}
+
+.rol {
+color: white;
+font-size:200%;
+text-align: center;
+margin-left: 200px;
+margin-right: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+.menu {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 50px;
+}
+
+
+.menu a {
+    padding: 15px 8px 15px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+
+.menu a:hover {
+    color: #f1f1f1;
+}
+
+
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+h2{
+	color: #4d001d;;
+font-size:150%;
+margin-left: 150px;
+
+
+}
+.column {
+     float: left;
+    width: 50%;
+    margin-left: 250px
+
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+color: white;;
+font-size:150%;
+
+}
+
+body{
+	background-image: url("../picture/photo_2023-01-25_10-47-12.jpg");
+	background-size: cover;
+}

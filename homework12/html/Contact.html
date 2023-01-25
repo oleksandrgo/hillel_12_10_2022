@@ -3,18 +3,19 @@
 <head>
 	<title>Контакти</title>
 	<meta charset="utf-8">
+    <link rel="stylesheet" href="../css/stylecontact.css">
 </head>
 <body>
 	<h1>Контакти:</h1>	
-	<p>+380000000000</p> 
-	<p>test@gmail.com</p>   
-    <p>Залиште нам повідомлення:</p>
+        <div class="cont">+380000000000</div>
+	<p class="cont">test@gmail.com</p>  
+    <p class="cont">Залиште нам повідомлення:</p>
     <div class="column">
-      <form action="/action_page.php">
+     <form action="" method="GET">
         <label for="fname">Ім'я</label>
-        <input type="text" id="fname" name="firstname">
+        <input type="text" id="fname" name="firstname" placeholder="Ваше Ім'я">
         <label for="lname">Прізвище</label>
-        <input type="text" id="lname" name="lastname">
+        <input type="text" id="lname" name="lastname" placeholder="Ваше Прізвище">
         <label for="town">Місто</label>
         <select id="town" name="town">
           <option value="Kyiv">Київ</option>
@@ -22,7 +23,9 @@
           <option value="Lviv">Львів</option>
         </select>
         <label for="subject">Ваше питання</label>
-        <textarea id="subject" name="subject" style="height:170px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Напиши що небудь..." style="height:100px"></textarea>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="email">     
         <input type="submit" value="Надіслати">
       </form>
     </div>
