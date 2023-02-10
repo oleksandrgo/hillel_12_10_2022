@@ -40,10 +40,11 @@ public class HomeWork4 {
 
         System.out.println("Введіть символ для малювання трикутника: ");
         String symbol = mySymbol.nextLine();
+        String j = symbol;
 
         for (int i = 0; i < height; i++) {
             System.out.println(symbol);
-            symbol = symbol + "*";
+            symbol = symbol + j;
         }
     }
 }
