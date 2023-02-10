@@ -41,12 +41,19 @@ public class HomeWork4 {
         System.out.println("Введіть символ для малювання трикутника: ");
         String symbol = mySymbol.nextLine();
 
-        for (int i = 0; i <= height;i++){
-
-            for (int j = 0; j < i;j++) {
-                System.out.print(symbol);
-            }
-            System.out.println();
+        for (int i = 0; i < height; i++) {
+            System.out.println(symbol);
+            symbol = symbol + "*";
         }
     }
 }
+
+// Второй вариант решения задачи
+/*
+ for(int i=0;i<=height;i++){
+
+         for(int j=0;j<i;j++){
+        System.out.print(symbol);
+        }
+        System.out.println();
+        }*/

@@ -13,18 +13,17 @@ public class HomeWork2 {
      * @see <a href="https://www.w3schools.blog/string-to-int-java">String To Int In Java</a>
      */
     public static void main(String[] args) {
-        Scanner myNum1 = new Scanner(System.in);
-        Scanner myNum2 = new Scanner(System.in);
+        Scanner myNum = new Scanner(System.in);
         Scanner console = new Scanner(System.in);
         int sum;
         boolean isExit = false;
 
         while (!isExit) {
             System.out.println("Введите первое целое число");
-            int num1 = myNum1.nextInt();
+            int num1 = myNum.nextInt();
 
             System.out.println("Введите второе целое число");
-            int num2 = myNum2.nextInt();
+            int num2 = myNum.nextInt();
 
             sum = num1 + num2;
             System.out.println("Сумма двух чисел равна "+ sum);
