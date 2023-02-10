@@ -14,8 +14,8 @@ public class HomeWork2 {
      *  </ul>
      */
     public static void main(String[] args) {
-        /*final int number = 278;
-        int lastDigit;
-        System.out.println(lastDigit);*/
+        final int number = 278;
+        int lastDigit = number % 10;
+        System.out.println(lastDigit);
     }
 }

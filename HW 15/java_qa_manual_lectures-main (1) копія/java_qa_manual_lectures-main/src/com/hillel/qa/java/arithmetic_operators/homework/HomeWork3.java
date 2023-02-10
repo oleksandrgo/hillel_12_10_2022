@@ -22,7 +22,7 @@ public class HomeWork3 {
         int b = 4;
         int c = 0;
 
-        String digits = "";
+        String digits = (a + b) + Integer.toString(c);
 
         System.out.println(digits);
     }
