@@ -20,8 +20,8 @@ public class HomeWork3 {
     public static void main(String[] args) {
         int a = 4;
         int b = 4;
-        String c = "0";
-        String digits = (a+b+c);
+        int c = 0;
+        var digits = (a*b*a+(a*b)+c);
         System.out.println(digits);
     }
 }
