@@ -1,0 +1,19 @@
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control input, .form-control textarea {
+    border-radius: 4px;
+    box-shadow: 0 0 3px grey;
+    min-height: 25px;
+    border: 0;
+}
+
+form button {
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
