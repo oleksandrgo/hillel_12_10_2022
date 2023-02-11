@@ -9,14 +9,15 @@ public class HomeWork2 {
      * </ul>
      */
     public static void main(String[] args) {
-        /*country = "Ukraine";
-        city = "Odessa";
-        age = 227;
-        square = 162,4;
+        String country = "Ukraine";
+        String city = "Odessa";
+        int age = 227;
+        double square = 162.4;
+
         System.out.println(country);
         System.out.println(city);
         System.out.println(age);
-        System.out.println(square);*/
+        System.out.println(square);
 
     }
 }
