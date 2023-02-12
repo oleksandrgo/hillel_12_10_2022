@@ -15,7 +15,7 @@ public class HomeWork2 {
      */
     public static void main(String[] args) {
         final int number = 278;
-        int lastDigit = Math.abs(number) % 10;
+        int lastDigit = number % 10;
 
         System.out.println(lastDigit);
     }
