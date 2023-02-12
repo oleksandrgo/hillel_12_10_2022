@@ -8,6 +8,15 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
+        int index = 0;
 
+        while (index < 100) {
+            index++;
+
+            if ((index % 3) == 0)
+                continue;
+
+            System.out.println(index);
+        }
     }
 }

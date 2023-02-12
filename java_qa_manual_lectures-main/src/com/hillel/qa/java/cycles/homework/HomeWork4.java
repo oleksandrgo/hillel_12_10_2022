@@ -1,4 +1,5 @@
 package com.hillel.qa.java.cycles.homework;
+import java.util.Scanner;
 
 public class HomeWork4 {
     /**
@@ -32,6 +33,28 @@ public class HomeWork4 {
      * </p>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Type a height of a triangle: ");
+        int height = scanner.nextInt();
+
+        scanner.nextLine();
+
+        System.out.println("Type a character for triangle drawing: ");
+        String symbol = scanner.nextLine();
+
+        for (int i = 1; i <= height; i++) {
+            System.out.println(HomeWork4.formatString(i, symbol));
+        }
+    }
+
+    public static String formatString(int count, String symbol) {
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < count; i++) {
+            result.append(symbol);
+        }
+
+        return result.toString();
     }
 }
