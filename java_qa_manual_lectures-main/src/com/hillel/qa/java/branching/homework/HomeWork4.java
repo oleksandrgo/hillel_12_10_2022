@@ -1,4 +1,5 @@
 package com.hillel.qa.java.branching.homework;
+import java.util.Scanner;
 
 public class HomeWork4 {
     /**
@@ -17,7 +18,25 @@ public class HomeWork4 {
      * @see <a href="https://www.w3schools.com/java/java_user_input.asp">Стаття як користуватися Scanner</a>
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Type A side of a triangle: ");
+        int a = scanner.nextInt();
 
+        System.out.println("Type B side of a triangle: ");
+        int b = scanner.nextInt();
+
+        System.out.println("Type C side of a triangle: ");
+        int c = scanner.nextInt();
+
+        boolean isPossibleToBuildTriangle =  b >= a + c
+                || a >= b + c
+                || c >= a + b;
+
+        String resultMessage = isPossibleToBuildTriangle
+                ? "It's possible to build a triangle"
+                : "It's not possible to build a triangle";
+
+        System.out.println(resultMessage);
     }
 }

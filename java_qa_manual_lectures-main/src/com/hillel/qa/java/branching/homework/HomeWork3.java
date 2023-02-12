@@ -22,6 +22,32 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
+        double price = 552.30;
 
+        double cardCommission = 1.02;
+        double invoiceCommission = 1.05;
+
+        enum PaymentType {
+            Card,
+            Cash,
+            Invoice
+        }
+
+        PaymentType paymentVia = PaymentType.Card;
+
+        switch (paymentVia) {
+            case Card:
+                System.out.println("You have paid: " + (price * cardCommission) + "$ via card!");
+                break;
+            case Invoice:
+                System.out.println("You have paid: " + (price * invoiceCommission) + "$ via invoice!");
+                break;
+            case Cash:
+                System.out.println("You have paid: " + price + "$ via cash!");
+                break;
+
+            default:
+                System.out.println("This type of payment is not allowed!");
+        }
     }
 }
