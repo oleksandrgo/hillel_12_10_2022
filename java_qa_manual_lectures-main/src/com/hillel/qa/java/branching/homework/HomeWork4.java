@@ -18,25 +18,23 @@ public class HomeWork4 {
      * @see <a href="https://www.w3schools.com/java/java_user_input.asp">Стаття як користуватися Scanner</a>
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scannerA = new Scanner(System.in);
+        Scanner scannerB = new Scanner(System.in);
+        Scanner scannerC = new Scanner(System.in);
 
         System.out.println("Type A side of a triangle: ");
-        int a = scanner.nextInt();
+        int a = scannerA.nextInt();
 
         System.out.println("Type B side of a triangle: ");
-        int b = scanner.nextInt();
+        int b = scannerB.nextInt();
 
         System.out.println("Type C side of a triangle: ");
-        int c = scanner.nextInt();
+        int c = scannerC.nextInt();
 
-        boolean isPossibleToBuildTriangle =  b >= a + c
-                || a >= b + c
-                || c >= a + b;
-
-        String resultMessage = isPossibleToBuildTriangle
-                ? "It's possible to build a triangle"
-                : "It's not possible to build a triangle";
-
-        System.out.println(resultMessage);
+        if (b >= a + c || a >= b + c || c >= a + b) {
+            System.out.println("It's possible to build a triangle");
+        } else {
+            System.out.println("It's not possible to build a triangle");
+        }
     }
 }

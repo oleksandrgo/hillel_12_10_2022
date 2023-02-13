@@ -15,10 +15,6 @@ public class HomeWork2 {
         int x = -1;
         int y = 3;
 
-        HomeWork2.printCoordinateSystem(x, y);
-    }
-
-    private static void printCoordinateSystem(int x, int y) {
         if (x > 0 && y > 0) {
             System.out.println("Ціль знаходиться в (1 чверті)!");
         } else if (x < 0 && y > 0) {

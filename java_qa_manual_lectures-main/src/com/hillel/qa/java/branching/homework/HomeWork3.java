@@ -1,4 +1,5 @@
 package com.hillel.qa.java.branching.homework;
+import java.util.Scanner;
 
 public class HomeWork3 {
     /**
@@ -22,27 +23,25 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
-        double price = 552.30;
-
         double cardCommission = 1.02;
         double invoiceCommission = 1.05;
 
-        enum PaymentType {
-            Card,
-            Cash,
-            Invoice
-        }
+        System.out.println("Type a price: ");
+        Scanner scannerPrice = new Scanner(System.in);
+        double price = scannerPrice.nextDouble();
 
-        PaymentType paymentVia = PaymentType.Card;
+        System.out.println("Type payment type: (Card - 1, Invoice - 2, Cash - 3)");
+        Scanner scannerPaymentType = new Scanner(System.in);
+        int paymentType = scannerPaymentType.nextInt();
 
-        switch (paymentVia) {
-            case Card:
+        switch (paymentType) {
+            case 1:
                 System.out.println("You have paid: " + (price * cardCommission) + "$ via card!");
                 break;
-            case Invoice:
+            case 2:
                 System.out.println("You have paid: " + (price * invoiceCommission) + "$ via invoice!");
                 break;
-            case Cash:
+            case 3:
                 System.out.println("You have paid: " + price + "$ via cash!");
                 break;
 
