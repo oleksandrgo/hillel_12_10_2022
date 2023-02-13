@@ -9,6 +9,7 @@ public class HomeWork3 {
      */
     public static void main(String[] args) {
         int index = 0;
+        int total = 0;
 
         while (index < 100) {
             index++;
@@ -16,7 +17,9 @@ public class HomeWork3 {
             if ((index % 3) == 0)
                 continue;
 
-            System.out.println(index);
+            total = (total + index);
         }
+
+        System.out.println(total);
     }
 }

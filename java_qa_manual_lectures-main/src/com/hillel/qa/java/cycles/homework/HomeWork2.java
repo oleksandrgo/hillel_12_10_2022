@@ -14,21 +14,24 @@ public class HomeWork2 {
      * @see <a href="https://www.w3schools.blog/string-to-int-java">String To Int In Java</a>
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scannerNumber = new Scanner(System.in);
+        Scanner scannerString = new Scanner(System.in);
+
         int result = 0;
 
         boolean isExit = false;
 
         while (!isExit) {
-            System.out.println("Please type a number or exit: ");
-            String input = scanner.next();
+            System.out.println("Please type a number: ");
+            int number = scannerNumber.nextInt();
 
-            if (input.equals("exit")) {
-                System.out.println("The sum of numbers is  " + result);
+            System.out.println("The sum of numbers is  " + (result = result + number));
 
+            System.out.println("Would you like to finish the program if yes type 'Exit'");
+            String inputString = scannerString.nextLine();
+
+            if (inputString.equals("Exit")) {
                 isExit = true;
-            } else {
-                result = Integer.parseInt(input) + result;
             }
         };
     }

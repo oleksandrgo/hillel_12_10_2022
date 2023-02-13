@@ -33,28 +33,20 @@ public class HomeWork4 {
      * </p>
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scannerHeight = new Scanner(System.in);
+        Scanner scannerSymbol = new Scanner(System.in);
 
         System.out.println("Type a height of a triangle: ");
-        int height = scanner.nextInt();
-
-        scanner.nextLine();
+        int height = scannerHeight.nextInt();
 
         System.out.println("Type a character for triangle drawing: ");
-        String symbol = scanner.nextLine();
+        String symbol = scannerSymbol.nextLine();
+        String symbolResult = symbol;
 
-        for (int i = 1; i <= height; i++) {
-            System.out.println(HomeWork4.formatString(i, symbol));
+        for (int i = 0; i <= height; i++) {
+            System.out.println(symbolResult);
+
+            symbolResult = symbolResult + symbol;
         }
-    }
-
-    public static String formatString(int count, String symbol) {
-        StringBuilder result = new StringBuilder();
-
-        for (int i = 0; i < count; i++) {
-            result.append(symbol);
-        }
-
-        return result.toString();
     }
 }
