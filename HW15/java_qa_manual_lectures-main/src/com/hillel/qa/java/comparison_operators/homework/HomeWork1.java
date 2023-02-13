@@ -12,6 +12,11 @@ public class HomeWork1 {
      * </ol>
      */
     public static void main(String[] args) {
+        int a = 5;
+        int b = 3;
+        boolean result = b > a;
+        System.out.println(result);
+
         /*int a = 5;
         int b = 3;
         boolean result = a > b;

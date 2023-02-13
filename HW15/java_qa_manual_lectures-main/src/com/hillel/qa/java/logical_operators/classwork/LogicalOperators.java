@@ -32,11 +32,11 @@ public class LogicalOperators {
      * @see <a href="https://www.w3schools.com/java/java_operators.asp">Стаття про логічні оператори</a>
      */
     public static void main(String[] args) {
-       /* boolean a = true;
+        boolean a = true;
         boolean b = false;
         System.out.println(a && b);
         System.out.println(a || b);
-        System.out.println(!(a || b));*/
+        System.out.println(!(a || b));
 
        /* TODO: Приклад маленької задачі. У вас э вхідні значення:
            1. Чи Студент ?

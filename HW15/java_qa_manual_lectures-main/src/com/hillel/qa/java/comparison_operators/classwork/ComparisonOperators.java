@@ -25,14 +25,14 @@ public class ComparisonOperators {
      * @see <a href="https://www.w3schools.com/java/java_operators.asp">Стаття про оператори порівняння</a>
      */
     public static void main(String[] args) {
-        /*int a = 10;
+        int a = 10;
         int b = 6;
         System.out.println(a > b);
         System.out.println(a >= b);
         System.out.println(a < b);
         System.out.println(a <= b);
         System.out.println(a != b);
-        System.out.println(a == b);*/
+        System.out.println(a == b);
 
         //TODO: створіть маленьку програму яка буде порівнювати вік люди.
         // Якщо людина повнолітня true, якщо ні false.
