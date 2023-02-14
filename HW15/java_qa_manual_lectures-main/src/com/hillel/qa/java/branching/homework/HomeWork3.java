@@ -22,6 +22,20 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
+        int payment = 2;
+        switch (payment) {
+            case 1:
+                System.out.println("Оплата готівкою, сума складає 100 грн.");
+                break;
+            case 2:
+                System.out.println("Оплата карткою, сума з комісією складає 102 грн.");
+                break;
+            case 3:
+                System.out.println("Оплата за рахунком, сума з комісією складає 105 грн.");
 
+                break;
+            default:
+                System.out.println("Такого способу оплати не існує");
+        }
     }
 }

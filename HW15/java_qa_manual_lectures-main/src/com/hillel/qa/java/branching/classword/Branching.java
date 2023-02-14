@@ -37,10 +37,10 @@ public class Branching {
         Якщо умова виконується, то і буде виконана команда.
         */
 
-       /* int age = 18; // Зміна яка зберігає вік
+        int age = 18; // Зміна яка зберігає вік
         if (age == 18) {
             System.out.println("Вітаю ви вже дорослі!");
-        }*/
+        }
 
         /*Завдання 2:
          Якщо людині менше ніж 18 років, ми надрукуємо "Ви ще дитина!",
@@ -91,7 +91,7 @@ public class Branching {
             Цей оператор має наступну структуру.
          */
 
-        /*int weekDay = 7;
+        int weekDay = 7;
         switch (weekDay) {
             case 1:
                 System.out.println("Сьогодні Понеділок!");
@@ -116,7 +116,7 @@ public class Branching {
                 break;
             default:
                 System.out.println("Такого дня не існує");
-        }*/
+        }
 
         /*
         Оператор починається зі слова switch який на вхід приймає параметр, у нашому випадку це weekDay,

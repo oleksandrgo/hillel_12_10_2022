@@ -1,5 +1,5 @@
 package com.hillel.qa.java.branching.homework;
-
+import java.util.Scanner;
 public class HomeWork4 {
     /**
      * <p style="font-size:12px">
@@ -16,8 +16,20 @@ public class HomeWork4 {
      *
      * @see <a href="https://www.w3schools.com/java/java_user_input.asp">Стаття як користуватися Scanner</a>
      */
+
     public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
 
+        if (a + b > c && a + c > b && b + c > a)
+            System.out.println("Трикутник можливо побудувати.");
+        else
+            System.out.println("Трикутник не можливо побудувати.");
     }
 }
+
+
+
