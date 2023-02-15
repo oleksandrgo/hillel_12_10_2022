@@ -8,6 +8,19 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
+        int a = 1;
+        int sum = 0;
 
+        while (a <= 100){
+            if(a % 3 == 0){
+                a++;
+                continue;
+            }
+            sum += a;
+            System.out.println(sum);
+            a++;
+        }
     }
 }
+
+
