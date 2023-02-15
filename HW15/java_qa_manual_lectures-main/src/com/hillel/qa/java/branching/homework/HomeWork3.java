@@ -23,5 +23,27 @@ public class HomeWork3 {
      */
     public static void main(String[] args) {
 
+        double purchaseAmount = 250.0;
+        String paymentMethod = "invoice";
+        double commission = 0.0;
+
+        switch (paymentMethod) {
+            case "cash":
+                commission = 0.0;
+                break;
+            case "card":
+                commission = purchaseAmount * 0.02;
+                break;
+            case "invoice":
+                commission = purchaseAmount * 0.05;
+                break;
+            default:
+                System.out.println("Payment method is invalid. Use one of the provided methods.");
+                return;
+        }
+
+        double totalAmount = purchaseAmount + commission;
+        System.out.println("The total amount to be paid is: UAH " + totalAmount);
+
     }
 }

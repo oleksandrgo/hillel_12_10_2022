@@ -12,6 +12,30 @@ public class HomeWork2 {
      *
      */
     public static void main(String[] args) {
+        int x = 7;
+        int y = -9;
+        String quadrant;
 
+        if (x == 0 || y == 0)
+        {
+            quadrant = "Target is on the coordinate axis.";
+        }
+        else if (x > 0 && y > 0)
+        {
+            quadrant = "Target is in 1 quadrant.";
+        }
+        else if (x < 0 && y > 0)
+        {
+            quadrant = "Target is in 2 quadrant.";
+        }
+        else if (x < 0 && y < 0) {
+            quadrant = "Target is in 3 quadrant.";
+        }
+        else {
+            quadrant = "Target is in 4 quadrant.";
+        }
+
+        System.out.println(quadrant);
     }
 }
+

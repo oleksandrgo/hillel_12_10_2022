@@ -1,4 +1,4 @@
-package com.hillel.qa.java.cycles.homework;
+import java.util.Scanner;
 
 public class HomeWork1 {
     /**
@@ -7,6 +7,15 @@ public class HomeWork1 {
      * </p>
      */
     public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
 
+        String brand = console.nextLine();
+
+        int count = 0;
+        while (count < 10)
+        {
+            System.out.println(brand + " найкраще авто");
+            count++;
     }
+}
 }
