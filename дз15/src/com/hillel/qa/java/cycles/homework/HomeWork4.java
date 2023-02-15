@@ -44,7 +44,7 @@ public class HomeWork4 {
 
     public static void figure(int h) {
         System.out.println("*");
-        var sb = new StringBuilder("**");
+        StringBuilder sb = new StringBuilder("**");
         System.out.println(sb);
         for (int i = 3; i < h; i++) {
             sb.insert(1, ' ');
