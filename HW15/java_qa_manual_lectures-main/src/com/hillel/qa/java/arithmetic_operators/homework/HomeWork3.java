@@ -21,7 +21,8 @@ public class HomeWork3 {
         int a = 4;
         int b = 4;
         int c = 0;
-        String digits = (a+b) + Integer.toString(c);
+        String digits = a + b + "" + c;
+        //String digits = (a+b) + Integer.toString(c);
         System.out.println(digits);
     }
 }

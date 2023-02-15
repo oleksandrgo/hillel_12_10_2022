@@ -22,6 +22,8 @@ public class HomeWork2 {
             System.out.println("Ціль знаходиться в III чверті!");
         }  else if (x > 0 && y < 0) {
             System.out.println("Ціль знаходиться в IV чверті!");
+        } else if (x == 0 && y == 0) {
+            System.out.println("Ціль знаходиться в 0 координатах!");
         }
 
     }
