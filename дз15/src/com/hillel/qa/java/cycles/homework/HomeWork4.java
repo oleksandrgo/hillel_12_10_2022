@@ -3,6 +3,8 @@ package com.hillel.qa.java.cycles.homework;
 import java.util.Scanner;
 
 public class HomeWork4 {
+
+
     /**
      * <p style="font-size:12px">
      * Намалюйте в консолі прямокутний трикутник із зірочок
@@ -34,23 +36,20 @@ public class HomeWork4 {
      * </p>
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Висота трикутника: ");
-        int h = scanner.nextInt();
+        int h = sc.nextInt();
         figure(h);
     }
 
-    public static void figure (int h) {
+    public static void figure(int h) {
         System.out.println("*");
-        for (int j = 0; j < h+1; j++)
-            System.out.print("");{
-
-            System.out.println("");
+        var sb = new StringBuilder("**");
+        System.out.println(sb);
+        for (int i = 3; i < h; i++) {
+            sb.insert(1, ' ');
+            System.out.println(sb);
         }
-
-        for (int j = 1; j < (h + 1); j++) {
-            for (int k = 0; k < (h - 1 + j); k++)     //Отвечает за бок треугольника
-                System.out.print(" ");
-            System.out.println("*");
-        }
-        }}
+        System.out.println("*" + "*".repeat(sb.length() - 1) + "*");
+    }
+}
