@@ -1,5 +1,5 @@
 package com.hillel.qa.java.cycles.homework;
-
+import java.util.Scanner;
 public class HomeWork2 {
     /**
      * <p style="font-size:12px">
@@ -13,6 +13,17 @@ public class HomeWork2 {
      * @see <a href="https://www.w3schools.blog/string-to-int-java">String To Int In Java</a>
      */
     public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+        int sum = 0;
+        while (true){
+            String x = console.nextLine();
+            if (x.equals("exit")) {
+                System.out.println(sum);
+                break;
+            }
+            int y = Integer.parseInt(x);
+            sum = sum + y;
 
     }
+}
 }
