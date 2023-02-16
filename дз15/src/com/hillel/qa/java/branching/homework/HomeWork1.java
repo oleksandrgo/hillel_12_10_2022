@@ -1,5 +1,7 @@
 package com.hillel.qa.java.branching.homework;
 
+import java.util.Scanner;
+
 public class HomeWork1 {
     /**
      *  <p style="font-size:12px">
@@ -8,6 +10,11 @@ public class HomeWork1 {
      *  </p>
      */
     public static void main(String[] args) {
+            String name = "Mary";
+            int age = 21;
 
+            if(age >= 18 && age <= 26){
+                System.out.println(name.toUpperCase() + ", вітаю ви розібралися як працює if");
+            }
+        }
     }
-}
