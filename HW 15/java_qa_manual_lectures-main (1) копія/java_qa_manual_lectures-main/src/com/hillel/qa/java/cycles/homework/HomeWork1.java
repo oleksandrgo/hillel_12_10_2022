@@ -9,18 +9,12 @@ public class HomeWork1 {
      * </p>
      */
     public static void main(String[] args) {
-        Scanner console  = new Scanner(System.in);
-        String s = console.nextLine();
-        int  n = 10;
-        while (n > 0)
-        {
-            System.out.println(s + "Найкраще авто");
-            n--;
+        Scanner console = new Scanner(System.in);
+        String carBrand = console.nextLine();
+        int n = 10;
+        while (n > 0) {
+            System.out.println(carBrand + " найкраще авто.");
+            n --;
         }
-
-
-
-
-
     }
 }
