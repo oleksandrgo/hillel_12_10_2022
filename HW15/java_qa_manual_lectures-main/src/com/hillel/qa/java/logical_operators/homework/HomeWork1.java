@@ -17,12 +17,7 @@ public class HomeWork1 {
         int personAge = 16;
         boolean hasInsurance = true;
         boolean hasMedicalPermission = true;
-        boolean isProvideDriverLicense = false;
-
-        if (personAge >= 16 && hasInsurance && hasMedicalPermission)
-        {
-            isProvideDriverLicense = true;
-        }
+        boolean isProvideDriverLicense = personAge >= 16 && hasInsurance && hasMedicalPermission;
 
         System.out.println(isProvideDriverLicense);
     }

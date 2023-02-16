@@ -33,19 +33,18 @@ public class HomeWork4 {
      *     ++++
      * </p>
      */
-    public static void main(String[] args) {
-        Scanner console = new Scanner(System.in);
+    public static void main(String[] args) {Scanner console = new Scanner(System.in);
 
         int height = console.nextInt();
-
         String symbol = console.next();
 
-        for (int a = 1; a <= height; a++)
-        {
-            for (int b = 1; b <= a; b++) {
+        for (int a = 1, b = 0; a <= height; a++, b = 0) {
+            while (b < a) {
                 System.out.print(symbol);
+                b++;
             }
             System.out.println();
         }
     }
 }
+
