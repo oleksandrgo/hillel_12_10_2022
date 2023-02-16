@@ -21,15 +21,20 @@ public class HomeWork2 {
 
         if ((x > 0) && (y > 0))
             System.out.println("Ціль знаходить у 1 четверті");
-        else
-        {
+        else {
             if ((x < 0) && (y > 0))
                 System.out.println("Ціль знаходиться у 2 четверті");
-            else
-            {
-                if ((x == 0) && (y == 0))
-                    System.out.println("Ви на початку");
-            }
+            else {
+                if ((x < 0) && (y < 0))
+                    System.out.println("Ціль знаходитьсяя у 3 четверті");
+                else {
+                    if ((x > 0) && (y < 0))
+                        System.out.println("Ціль знаходиться у 4 четверті");
+                    else {
+                        if ((x == 0) && (y == 0))
+                            System.out.println("Ви на осі");
+                    }
+                }
             }
         }
-    }
+    }}
