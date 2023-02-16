@@ -14,7 +14,7 @@ public class HomeWork1 {
             int age = 21;
 
             if(age >= 18 && age <= 26){
-                System.out.println(name.toUpperCase() + ", вітаю ви розібралися як працює if");
+                System.out.println(name.toUpperCase() + ", вітаю ви розібралися як працює if!");
             }
         }
     }

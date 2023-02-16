@@ -1,5 +1,7 @@
 package com.hillel.qa.java.branching.homework;
 
+import java.util.Scanner;
+
 public class HomeWork2 {
     /**
      * <p style="font-size:12px">
@@ -12,6 +14,22 @@ public class HomeWork2 {
      *
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ціль");
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
 
+        if ((x > 0) && (y > 0))
+            System.out.println("Ціль знаходить у 1 четверті");
+        else
+        {
+            if ((x < 0) && (y > 0))
+                System.out.println("Ціль знаходиться у 2 четверті");
+            else
+            {
+                if ((x == 0) && (y == 0))
+                    System.out.println("Ви на початку");
+            }
+            }
+        }
     }
-}

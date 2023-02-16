@@ -22,6 +22,16 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
-
-    }
-}
+        String payment = "Card";
+        int sum = 200;
+        int pay = sum - (sum*2/100);
+        switch (payment) {
+            case "Cash": System.out.println("Додаткова комісія не стягується");
+            break;
+            case "Card": System.out.println("Стягується додаткова комісія 2% від суми купівлі. До сплати:" + pay );
+        break;
+            case "Bill": System.out.println("Стягується додаткова комісія 5% від суми купівлі");
+       break;
+            default: System.out.println("Hемає відповідності будь-якому способу оплати");
+        }
+    }}
