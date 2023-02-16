@@ -91,7 +91,7 @@ public class Branching {
             Цей оператор має наступну структуру.
          */
 
-        /*int weekDay = 7;
+        int weekDay = 7;
         switch (weekDay) {
             case 1:
                 System.out.println("Сьогодні Понеділок!");
@@ -116,7 +116,7 @@ public class Branching {
                 break;
             default:
                 System.out.println("Такого дня не існує");
-        }*/
+        }
 
         /*
         Оператор починається зі слова switch який на вхід приймає параметр, у нашому випадку це weekDay,

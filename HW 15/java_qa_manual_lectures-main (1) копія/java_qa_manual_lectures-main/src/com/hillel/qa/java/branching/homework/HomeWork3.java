@@ -22,6 +22,21 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
-
+        int payment = 1000;
+        String paymentWay = "card";
+        switch (paymentWay) {
+            case "cash":
+                System.out.println(payment);
+                break;
+            case "card":
+                System.out.println(payment + payment * 0.02);
+                break;
+            case "invoice":
+                System.out.println(payment + payment * 0.05);
+                break;
+            default:
+                System.out.println("Оплата скасована, помилка");
+                break;
     }
+}
 }
