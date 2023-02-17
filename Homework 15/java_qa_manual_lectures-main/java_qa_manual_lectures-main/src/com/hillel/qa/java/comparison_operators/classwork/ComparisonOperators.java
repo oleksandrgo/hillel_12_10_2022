@@ -36,6 +36,12 @@ public class ComparisonOperators {
 
         //TODO: створіть маленьку програму яка буде порівнювати вік люди.
         // Якщо людина повнолітня true, якщо ні false.
+int Povnolitty = 18;
+int a = 10;
+int b = 12;
+int c = 21;
+int d = 22;
+int v = 30;
 
     }
 }

@@ -1,5 +1,7 @@
 package com.hillel.qa.java.cycles.homework;
 
+import java.util.Scanner;
+
 public class HomeWork1 {
     /**
      * <p style="font-size:12px">
@@ -7,6 +9,11 @@ public class HomeWork1 {
      * </p>
      */
     public static void main(String[] args) {
-
+        Scanner console = new Scanner(System.in);
+        int i = 10;
+        while (i>0) {
+            String s = console.nextLine();
+            i--;}
+        }
     }
-}
+

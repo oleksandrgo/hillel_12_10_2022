@@ -22,6 +22,20 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
-
+        int Var = 2;
+        int summa = 300;
+        switch (Var) {
+            case 1:
+                System.out.println(summa);
+                break;
+            case 2:
+                System.out.println(summa*1.02);
+                break;
+            case 3:
+                System.out.println(summa*1.05);
+                break;
+            default:
+                System.out.println("Немає відповідності будь-якому способу оплати");
     }
+}
 }
