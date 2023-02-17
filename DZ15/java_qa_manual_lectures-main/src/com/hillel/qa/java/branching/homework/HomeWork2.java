@@ -12,6 +12,18 @@ public class HomeWork2 {
      *
      */
     public static void main(String[] args) {
-
+int x = 0;
+int y = 0;
+if (x > 0 && y > 0){
+    System.out.println("Ціль знаходиться в (1 чверті)!");
+} else if (x < 0 && y >0) {
+    System.out.println("Ціль знаходиться в (2 чверті)!");
+} else if (x < 0 && y <0) {
+    System.out.println("Ціль знаходиться в (3 чверті)!");
+} else if (x > 0 && y < 0) {
+    System.out.println("Ціль знаходиться в (4 чверті)!");
+}else {
+    System.out.println("Прям у цiль");
+}
     }
 }

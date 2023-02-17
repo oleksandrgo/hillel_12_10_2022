@@ -23,5 +23,22 @@ public class HomeWork3 {
      */
     public static void main(String[] args) {
 
+        int payment = 35;
+        double cardPayment = 1.02;
+        double accountPayment = 1.05;
+        int paymentType = 6;
+        switch (paymentType) {
+            case 1:
+                System.out.println("Оплата готівкою" + payment + "гривень");
+                break;
+            case 2:
+                System.out.println("Оплата карткою" + payment * cardPayment + "гривень");
+                break;
+            case 3:
+                System.out.println("Оплата за рахунком" + payment * accountPayment + "гривень" );
+                break;
+            default:
+                System.out.println("Помилка способу оплати !");
+        }
     }
 }
