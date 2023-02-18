@@ -21,7 +21,7 @@ public class HomeWork3 {
         int a = 4;
         int b = 4;
         int c = 0;
-        var digits = (a*b*a+(a*b)+c);
+        int digits = (a * 10 + b * 10 + c);
         System.out.println(digits);
     }
 }
