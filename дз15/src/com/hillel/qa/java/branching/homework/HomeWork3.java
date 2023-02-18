@@ -1,5 +1,7 @@
 package com.hillel.qa.java.branching.homework;
 
+import java.util.Scanner;
+
 public class HomeWork3 {
     /**
      * <h1>Вимоги</h1>
@@ -22,16 +24,27 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
-        String payment = "Card";
-        int sum = 200;
-        int pay = sum - (sum*2/100);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Спосіб оплати та сума");
+        String payment = String.valueOf(scanner.next());
+        int sum = scanner.nextInt();
+        double comission = 0.0;
+       // int pay = sum + (sum*2/100);//
         switch (payment) {
-            case "Cash": System.out.println("Додаткова комісія не стягується");
+            case "Cash":
+                 comission = 0.0;
+                System.out.println("Додаткова комісія не стягується");
             break;
-            case "Card": System.out.println("Стягується додаткова комісія 2% від суми купівлі. До сплати:" + pay );
+            case "Card":
+                comission = 0.02;
+                System.out.println("Стягується додаткова комісія 2% від суми купівлі.");
         break;
-            case "Bill": System.out.println("Стягується додаткова комісія 5% від суми купівлі");
+            case "Bill":
+                comission = 0.05;
+                System.out.println("Стягується додаткова комісія 5% від суми купівлі");
        break;
             default: System.out.println("Hемає відповідності будь-якому способу оплати");
         }
+    double totalAmount = sum * (1.0 + comission);
+System.out.println("Сума до сплати: " + totalAmount);
     }}

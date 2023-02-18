@@ -14,7 +14,7 @@ public class HomeWork1 {
      * </ol>
      */
     public static void main(String[] args) {
-        int age = 18;
+        int age =25;
         boolean isAssurance = true;
         boolean isHealthy = true;
         if ( age >= 16 && isAssurance && isHealthy){
