@@ -14,15 +14,12 @@ public class HomeWork1 {
      * </ol>
      */
     public static void main(String[] args) {
+        boolean isProvideDriverLicense = false;
         int age =25;
         boolean isAssurance = true;
         boolean isHealthy = true;
         if ( age >= 16 && isAssurance && isHealthy){
-            String congratulation = "isProvideDriverLicense";
-            System.out.println(congratulation);
+           isProvideDriverLicense = true;
         }
-
-
-
-    }
-}
+            System.out.println("Чи можу я отримати водійське посвідчення?"+ isProvideDriverLicense);
+        }}
