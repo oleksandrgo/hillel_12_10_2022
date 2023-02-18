@@ -2,7 +2,7 @@ package com.hillel.qa.java.cycles.homework;
 
 import java.util.Scanner;
 
-public class HomeWork4 {
+public class HomeWork4{
     /**
      * <p style="font-size:12px">
      * Намалюйте в консолі прямокутний трикутник із зірочок
@@ -40,12 +40,28 @@ public class HomeWork4 {
 
         for (int i = 0; i < g; i++) {
             for (int j = 0; j <= i; j++){
-                    System.out.print(s);
-                }
+                System.out.print(s);
+            }
 
             System.out.println();
-        }
+
+
+            }
 
         }
 
     }
+
+
+
+      /*  public static void main(String[] args) {
+            Scanner console = new Scanner(System.in);
+            String s = console.nextLine();
+                int n = console.nextInt();
+
+            for (int i = 0; i <= n; ++i) {
+                s += "*";
+                System.out.println(s);
+            }
+        }
+        }*/

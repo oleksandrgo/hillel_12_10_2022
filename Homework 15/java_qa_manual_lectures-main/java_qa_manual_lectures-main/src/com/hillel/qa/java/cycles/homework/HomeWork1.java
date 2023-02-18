@@ -10,10 +10,16 @@ public class HomeWork1 {
      */
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
+        boolean isExit = false;
+        String s = console.nextLine();
         int i = 10;
-        while (i>0) {
-            String s = console.nextLine();
-            i--;}
+        while (!isExit) {
+            System.out.println(s + " найкраще авто");
+            i--;
+            if (i<0){
+            isExit = true;}
+
+        }
         }
     }
 

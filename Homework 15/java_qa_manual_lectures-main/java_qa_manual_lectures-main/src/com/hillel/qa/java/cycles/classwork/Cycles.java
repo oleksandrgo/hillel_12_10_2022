@@ -49,19 +49,14 @@ public class Cycles {
          */
 
         // Довічний цикл
-       /*
+
        while (true)
             System.out.println("Хай живе Україна!");
-        */
+
 
         /*
         TODO: Написати програму яка виводить 50 разів "QA це круто!"
-         */
-        int  n = 0;
-        while (n < 50)
-        {
-            System.out.println("QA це круто!");
-            n++;}
+        */
         /*
         Ще один приклад.
         Програма буде вводити рядки з клавіатури,
@@ -86,15 +81,15 @@ public class Cycles {
         Розглянемо як це буде виглядати з командою break.
          */
 
-        /*
-        Scanner console = new Scanner(System.in);
+
+       /* Scanner console = new Scanner(System.in);
         while (true)
         {
             String s = console.nextLine();
             if (s.equals("exit"))
                 break;
-        }
-        */
+        }*/
+
 
         /*
         Команда continue.
