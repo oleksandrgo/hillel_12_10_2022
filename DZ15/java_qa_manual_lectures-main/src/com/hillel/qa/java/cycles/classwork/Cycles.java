@@ -57,7 +57,12 @@ public class Cycles {
         /*
         TODO: Написати програму яка виводить 50 разів "QA це круто!"
          */
-
+int  n = 50;
+        while (n > 0)
+        {
+            System.out.println("QA це круто!");
+            n--;
+        }
 
         /*
         Ще один приклад.
