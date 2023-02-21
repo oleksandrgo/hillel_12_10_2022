@@ -37,12 +37,12 @@ public class HomeWork4 {
         Scanner sc = new Scanner(System.in);
         int height = sc.nextInt();
         String symbol = sc.next();
-        for (int i = 1; i <= height; i++) {
-            for (int j = 0; j < i; j++) {
+        for (int i = 1; i <= height; i++)
+           for (int j = 0; j < i; j++) {
                 System.out.print(symbol);
             }
             System.out.println("");
 
         }
     }
-}
+
