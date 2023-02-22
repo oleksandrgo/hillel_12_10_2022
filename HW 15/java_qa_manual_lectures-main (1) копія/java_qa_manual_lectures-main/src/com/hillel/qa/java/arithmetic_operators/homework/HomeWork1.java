@@ -24,3 +24,27 @@ public class HomeWork1 {
 
     }
 }
+
+public class Test{
+    static int power(int x, int n){
+        int result = 1;
+        for (int i=1; i<=b; i++){
+            result = result*x;
+        }
+        return result;
+    }
+
+    public static void main(String[] args){
+        System.out.println( power(x,n));
+    }
+}
+
+public static void main(String[] args) {
+        int num [] = {1-100};
+        double sum = 0;
+        for (int x: num) {
+        sum += x;
+        }
+        System.out.print(""среднее арифметическое суммы чисел:""  + sum/num.length);
+        }
+        }

@@ -38,11 +38,11 @@ public class HomeWork4 {
         int row = sc.nextInt();
         String star = "*";
 
-        for (int i = 1; i <= row; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print(star);
+        for (int i = 0; i <= row; i++) {
+
+                System.out.println(star);
             }
             System.out.println("");
         }
     }
-}
+
