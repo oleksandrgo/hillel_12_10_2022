@@ -7,15 +7,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class HWQAuto {
     private final String domain = "https://guest:welcome2qauto@qauto.forstudy.space";
     private static WebDriver driver;
     private final String password = "Qwerty123";
-
     private String email;
 
     private final int sleep = 1000;
+    private int InitialMileage;
+    private int ExpenseMileage;
+    private int ExpenseLiter;
+    private int TotalCost;
+
 
     @BeforeClass
     public static void setUpDriver() {
@@ -32,10 +35,13 @@ public class HWQAuto {
         int x = random.nextInt(1000);
         email = "exam_" + x + "@mail.com";
         driver.navigate().to(domain);
+        InitialMileage = random.nextInt(1, 20000);
+        ExpenseMileage = InitialMileage + 100;
+        ExpenseLiter = random.nextInt(1, 1000);
+        TotalCost = random.nextInt(1, 1000);
     }
-
     @Test
-    public void aSingUp() throws InterruptedException {
+    public void checkQAuto() throws InterruptedException {
         Thread.sleep(sleep);
         driver.findElement(By.xpath("//button[@class='hero-descriptor_btn btn btn-primary']")).click();
         Thread.sleep(sleep);
@@ -49,57 +55,49 @@ public class HWQAuto {
 
         driver.findElement(By.xpath("//div[@class='modal-footer']//button[@class='btn btn-primary']")).click();
         Thread.sleep(sleep);
-    }
 
-    @Test
-    public void bCheckProfile() throws InterruptedException {
+
         driver.findElement(By.xpath("//a[@class='btn btn-white btn-sidebar sidebar_btn -profile']")).click();
         Thread.sleep(sleep);
         String name = driver.findElement(By.xpath("//p[@class='profile_name display-4']")).getText();
         Thread.sleep(sleep);
         Assert.assertEquals(name, "Jin Bin");
-    }
 
-    @Test
-    public void cAddCar() throws InterruptedException {
+
         driver.findElement(By.xpath("//a[@routerlink='garage']")).click();
         Thread.sleep(sleep);
         driver.findElement(By.xpath("//button[@class='btn btn-primary']")).click();
         Thread.sleep(sleep);
 
-        driver.findElement(By.id("addCarMileage")).sendKeys("200");
+        driver.findElement(By.id("addCarMileage")).sendKeys(Integer.toString(InitialMileage));
         Thread.sleep(sleep);
         driver.findElement(By.xpath("//div[@class='modal-footer d-flex justify-content-end']//button[@class='btn btn-primary']")).click();
         Thread.sleep(sleep);
-        String miles = driver.findElement(By.xpath("//input[@formcontrolname='miles']")).getAttribute("value");
-        Assert.assertEquals(miles, "200");
-    }
+        String Mileage = driver.findElement(By.xpath("//input[@formcontrolname='miles']")).getAttribute("value");
+        Assert.assertEquals(Mileage, Integer.toString(InitialMileage));
 
-    @Test
-    public void dAddExpense() throws InterruptedException {
+
         driver.findElement(By.xpath("//a[@routerlink='expenses']")).click();
         Thread.sleep(sleep);
         driver.findElement(By.xpath("//button[@class='btn btn-primary']")).click();
         Thread.sleep(sleep);
         driver.findElement(By.id("addExpenseMileage")).clear();
-        driver.findElement(By.id("addExpenseMileage")).sendKeys("300");
-        driver.findElement(By.id("addExpenseLiters")).sendKeys("50");
-        driver.findElement(By.id("addExpenseTotalCost")).sendKeys("100");
+        driver.findElement(By.id("addExpenseMileage")).sendKeys(Integer.toString(ExpenseMileage));
+        driver.findElement(By.id("addExpenseLiters")).sendKeys(Integer.toString(ExpenseLiter));
+        driver.findElement(By.id("addExpenseTotalCost")).sendKeys(Integer.toString(TotalCost));
         Thread.sleep(sleep);
         driver.findElement(By.xpath("//div[@class='modal-footer d-flex justify-content-end']//button[@class='btn btn-primary']")).click();
         Thread.sleep(sleep);
 
-        String miles = driver.findElement(By.xpath("//table[@class='table expenses_table']/tbody/tr/td[2]")).getText();
+        String expenseMileage = driver.findElement(By.xpath("//table[@class='table expenses_table']/tbody/tr/td[2]")).getText();
         String liters = driver.findElement(By.xpath("//table[@class='table expenses_table']/tbody/tr/td[3]")).getText();
         String cost = driver.findElement(By.xpath("//table[@class='table expenses_table']/tbody/tr/td[4]")).getText();
 
-        Assert.assertEquals(miles, "300");
-        Assert.assertEquals(liters, "50L");
-        Assert.assertEquals(cost, "100.00 USD");
-    }
+        Assert.assertEquals(expenseMileage, Integer.toString(ExpenseMileage));
+        Assert.assertEquals(liters, Integer.toString(ExpenseLiter) + "L");
+        Assert.assertEquals(cost, Integer.toString(TotalCost)+ ".00 USD");
 
-    @Test
-    public void eDeleteAccount() throws InterruptedException {
+
         driver.findElement(By.xpath("//a[@routerlink='settings']")).click();
         Thread.sleep(sleep);
         driver.findElement(By.xpath("//button[@class='btn btn-danger-bg']")).click();
