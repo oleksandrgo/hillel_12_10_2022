@@ -31,7 +31,7 @@ public class Main {
         driver.findElement(By.cssSelector(".hero-descriptor_btn")).click();
         driver.findElement(By.id("signupName")).sendKeys("Masha");
         driver.findElement(By.id("signupLastName")).sendKeys("Sushko");
-        driver.findElement(By.id("signupEmail")).sendKeys("dogsuzi3,  @gmail.com");
+        driver.findElement(By.id("signupEmail")).sendKeys("dogsuzi3@gmail.com");
         driver.findElement(By.id("signupPassword")).sendKeys("Masha555");
         driver.findElement(By.id("signupRepeatPassword")).sendKeys("Masha555");
         driver.findElement(By.xpath("//button[@class='btn btn-primary']")).click();

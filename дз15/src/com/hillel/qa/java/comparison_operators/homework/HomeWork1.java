@@ -12,9 +12,8 @@ public class HomeWork1 {
      * </ol>
      */
     public static void main(String[] args) {
-        int a = 5;
-        int b = 3;
-        boolean result = a > b;
-        System.out.println(!result);
+        int sum = (1 + 100) * 100 / 2;
+        double average = (double) sum / 100;
+        System.out.println("Середнє арифметичне суми чисел від 1 до 100: " + average);
     }
 }
